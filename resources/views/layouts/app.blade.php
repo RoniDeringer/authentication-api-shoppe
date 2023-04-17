@@ -71,7 +71,7 @@
         <x-footer></x-footer>
     </main>
 
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/theme/core/bootstrap.min.js') }}"></script>
     
     <!-- Github buttons -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>

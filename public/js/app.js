@@ -5451,13 +5451,13 @@ var iconNavbarSidenav = document.getElementById('iconNavbarSidenav');
 var iconSidenav = document.getElementById('iconSidenav');
 var sidenav = document.getElementById('sidenav-main'); // Close on external click
 
-window.addEventListener('click', function (e) {
-  if (sidenav.classList.contains('bg-white')) {
-    if (!iconNavbarSidenav.contains(e.target) && !iconSidenav.contains(e.target) && !sidenav.contains(e.target)) {
-      toggleSidenav();
-    }
-  }
-});
+// window.addEventListener('click', function (e) {
+//   if (sidenav.classList.contains('bg-white')) {
+//     if (!iconNavbarSidenav.contains(e.target) && !iconSidenav.contains(e.target) && !sidenav.contains(e.target)) {
+//       toggleSidenav();
+//     }
+//   }
+// });
 
 /***/ }),
 
