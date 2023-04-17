@@ -67,6 +67,11 @@
                 @endif
             </div>
             @yield('content')
+
+            @if(session()->get('response'))
+                @php dump(session()->get('response')) @endphp
+            @endif
+            
         </div>
         <x-footer></x-footer>
     </main>
