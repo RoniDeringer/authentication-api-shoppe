@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ApiShoppeController;
+use App\Http\Controllers\FormularioController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,4 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-// Route::get('/-completo', [CadastroCompleto::class, 'index'])->name('cadastro-completo');
+
+Route::get('/formulario', [FormularioController::class, 'index'])->name('formulario');
+Route::post('/formulario-add', [FormularioController::class, 'store'])->name('formulario-store');
+
+Route::get('/api-shoppe', [ApiShoppeController::class, 'index'])->name('api-shoppe');

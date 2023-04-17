@@ -37,7 +37,7 @@
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
 
         {{-- CONTENT --}}
-        <div class="container-fluid py-4" style="min-height: calc(100vh - 148px);">
+        <div class="container-fluid py-4" style="min-height: calc(100vh - 70px);">
 
             <div class="py-3">
                 {{-- Retorno dos controllers --}}
@@ -77,7 +77,7 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> --}}
     <script src="{{ asset('js/app.js') }}"></script>
     @yield('scripts')
 </body>
