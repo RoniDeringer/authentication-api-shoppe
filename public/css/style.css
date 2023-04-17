@@ -1,0 +1,193 @@
+/* Estilos gerais customizados */
+.bg-escuro {
+  background-color: #3459A2;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: #495057;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.btn.bg-gradient-primary, .btn-primary {
+  background-image: linear-gradient(195deg, #2368ff, #004FF7);
+  box-shadow: 0 3px 3px 0 rgba(0, 181, 226, 0.15), 0 3px 1px -2px rgba(0, 181, 226, 0.2), 0 1px 5px 0 rgba(0, 181, 226, 0.15);
+}
+.btn.bg-gradient-primary:hover, .btn-primary:hover {
+  background-color: #004FF7;
+  border-color: #004FF7;
+  box-shadow: 0 14px 26px -12px rgba(0, 181, 226, 0.4), 0 4px 23px 0 rgba(0, 181, 226, 0.15), 0 8px 10px -5px rgba(0, 181, 226, 0.2);
+}
+
+.text-gradient.text-primary {
+  background-image: linear-gradient(195deg, #2368ff, #004FF7);
+}
+
+.text-primary {
+  color: #004FF7 !important;
+}
+
+.input-group.input-group-outline.is-filled .form-label + .form-control,
+.input-group.input-group-outline.is-focused .form-label + .form-control {
+  border-color: #004FF7 !important;
+  border-top-color: transparent !important;
+  box-shadow: inset 1px 0 #004FF7, inset -1px 0 #004FF7, inset 0 -1px #004FF7;
+}
+
+.input-group.input-group-outline.is-filled .form-label,
+.input-group.input-group-outline.is-focused .form-label {
+  color: #004FF7;
+}
+
+.input-group.input-group-outline.is-filled .form-label:after,
+.input-group.input-group-outline.is-filled .form-label:before,
+.input-group.input-group-outline.is-focused .form-label:after,
+.input-group.input-group-outline.is-focused .form-label:before {
+  border-top-color: #004FF7;
+  box-shadow: inset 0 1px #004FF7;
+}
+
+.alert-primary {
+  background-image: linear-gradient(195deg, #2368ff, #004FF7);
+  color: #fff;
+}
+
+a {
+  color: #3459A2;
+}
+
+a:hover {
+  color: #004FF7;
+}
+
+.bg-gradient-primary {
+  background-image: linear-gradient(195deg, #2368ff, #004FF7);
+}
+
+.input-group.input-group-dynamic .form-control,
+.input-group.input-group-dynamic .form-control:focus,
+.input-group.input-group-static .form-control,
+.input-group.input-group-static .form-control:focus {
+  background-image: linear-gradient(0deg, #004FF7 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, hsla(0deg, 0%, 82%, 0) 0);
+}
+
+.dataTable-wrapper .dataTable-bottom .dataTable-pagination .dataTable-pagination-list .active a,
+.dataTables_paginate .paginate_button.active a {
+  background-image: linear-gradient(195deg, #2368ff, #004FF7);
+  border-color: #004FF7;
+}
+.dataTable-wrapper .dataTable-bottom .dataTable-pagination .dataTable-pagination-list .active a:hover,
+.dataTables_paginate .paginate_button.active a:hover {
+  background-image: linear-gradient(195deg, #004FF7, #1A73E8);
+}
+
+.input-group.input-group-dynamic.is-focused label,
+.input-group.input-group-static.is-focused label {
+  color: #004FF7;
+}
+
+.dataTables_paginate .paginate_button .page-link:focus {
+  box-shadow: none;
+}
+
+.dataTables_filter input[type=search] {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.bg-gradient-primary .multisteps-form__progress-btn:before {
+  background-color: #ccc;
+}
+
+.multisteps-form__progress-btn.js-active:before {
+  background-color: #fff;
+}
+
+.shadow-primary {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(30, 77, 233, 0.4) !important;
+}
+
+@media screen and (min-width: 1024px) {
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+  body::-webkit-scrollbar-track {
+    background: #e6e6e6;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #3459A2;
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background: #2b3b52;
+  }
+}
+.is-filled select.form-control {
+  border: 1px solid #004FF7 !important;
+}
+
+.choices .choices__input {
+  background-image: linear-gradient(0deg, #004FF7 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, hsla(0deg, 0%, 82%, 0) 0) !important;
+}
+
+.choices .choices__list.choices__list--single,
+.choices .choices__list.choices__list--single:focus {
+  background-image: linear-gradient(0deg, #004FF7 2px, rgba(156, 39, 176, 0) 0), linear-gradient(0deg, #d2d2d2 1px, hsla(0deg, 0%, 82%, 0) 0) !important;
+}
+
+.bg-primary {
+  background-color: #004FF7 !important;
+}
+
+.bg-secondary {
+  background-color: #3459A2 !important;
+}
+
+.dataTables_wrapper > table.dataTable {
+  padding: 50px 0 !important;
+}
+
+@media screen and (max-width: 640px) {
+  .dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter {
+    text-align: left !important;
+  }
+}
+
+.btn-secondary, .btn.bg-gradient-secondary {
+  box-shadow: 0 3px 3px 0 #ccc;
+}
+.btn-secondary:hover, .btn.bg-gradient-secondary:hover {
+  box-shadow: 0 14px 26px -12px #ccc;
+}
+
+.checklist-item-primary:before,
+.checklist-item:before {
+  background-color: #004FF7;
+}
+
+.navbar .sidenav-toggler-inner {
+  width: 30px;
+}
+.navbar .sidenav-toggler-inner .sidenav-toggler-line:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+@media screen and (max-width: 500px) {
+  #table-projetos .link-principal {
+    flex-wrap: wrap;
+  }
+  #table-projetos .link-principal > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
