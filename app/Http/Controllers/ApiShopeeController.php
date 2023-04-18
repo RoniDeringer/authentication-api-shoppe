@@ -170,9 +170,11 @@ class ApiShopeeController extends Controller
         $host = 'https://partner.test-stable.shopeemobile.com';
         $path = "/api/v2/product/add_item";
         $timest = time();
+        $access_token ='c09222e3fc40ffb25fc947f738b1abf1';
+        $shop_id = 01;
         $baseString = sprintf("%s%s%s", $partnerId, $path, $timest);
         $sign = hash_hmac('sha256', $baseString, $partnerKey);
-        $url = sprintf("%s%s?partner_id=%s&timestamp=%s&sign=%s", $host, $path, $partnerId, $timest, $sign);
+        $url = sprintf("%s%s?partner_id=%s&timestamp=%s&access_token=%s&shop_id=%s&sign=%s", $host, $path, $partnerId, $timest, $access_token, $shop_id, $sign);
 
         // Dados do item
         $data = array(

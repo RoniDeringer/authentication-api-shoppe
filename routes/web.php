@@ -23,11 +23,3 @@ Route::get('/formulario', [FormularioController::class, 'index'])->name('formula
 Route::post('/formulario-add', [FormularioController::class, 'store'])->name('formulario-store');
 
 Route::get('/api-shopee', [ApiShopeeController::class, 'index'])->name('api-shopee');
-
-
-/**
-    * 1 - Localizar a documentação de integração da API da Shoppe.
-    * 2 - Criar uma rotina de autenticação com a API deles (nao precisa funcionar, apenas para servir de base)
-    * 3 - Pegue um produto qualquer em nosso site e tente postar esse produto na usando a api deles.
-    *      Não precisa de fato postar, apenas que a API retorne o erro e que seu código saiba capturar o erro.
- */
