@@ -7,6 +7,13 @@
 
 @section('content')
 
+    <div class="col-2">
+        <a  href="{{route('home')}}">
+            <button type="button"  class="btn btn-secondary btn-icon" >
+                <span class="btn-inner--text">Voltar</span>
+            </button>
+        </a>
+    </div>
     <div class="col-10 mx-auto text-center">
         <div class="card mt-5">
             <div class="card-header p-3 pt-2">

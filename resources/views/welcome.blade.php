@@ -19,10 +19,10 @@
             </div>
 
             <div class="col-5">
-                <a  href="{{route('api-shoppe')}}">
+                <a  href="{{route('api-shopee')}}">
                     <button type="button" class="btn btn-primary w-100 btn-icon"  style="font-size: 18px;">
                         <span class="btn-inner--icon "><i class="material-icons mb-2"style="font-size: 3rem">settings</i></span><br>
-                        <span class="btn-inner--text">API Shoppe</span>
+                        <span class="btn-inner--text">API Shopee</span>
                     </button>
                 </a>
             </div>
